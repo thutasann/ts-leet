@@ -9,6 +9,7 @@ This repo contains Data Structures and Algorithms and Leet Code Solutions.
 - Bit O Notation
   - ConstantTime
   - LinearTime
+  - QuadraticTime
 
 ## Available scripts
 

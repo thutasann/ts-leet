@@ -5,7 +5,8 @@
   "main": "src/index.ts",
   "scripts": {
     "build": "tsc",
-    "dev": "concurrently \"nodemon src/index.ts\" \"yarn lite-server\"",
+    "dev": "concurrently \"yarn start:dev\" \"yarn lite-server\"",
+    "start:dev": "nodemon src/index.ts",
     "lite-server": "npx lite-server"
   },
   "author": "Thuta Sann",

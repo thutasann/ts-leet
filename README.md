@@ -8,8 +8,7 @@ This repo contains Data Structures and Algorithms and Leet Code Solutions.
 
 - Bit O Notation
   - ConstantTime
-
-## Tabe
+  - LinearTime
 
 ## Available scripts
 
@@ -23,4 +22,10 @@ yarn
 
 ```bash
 yarn dev
+```
+
+### Compile the Tyepscript
+
+```bash
+yarn build
 ```

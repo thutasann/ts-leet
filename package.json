@@ -2,9 +2,10 @@
   "name": "ts-leet",
   "version": "1.0.0",
   "description": "Typescript leet codes solutions",
-  "main": "index.js",
+  "main": "src/index.ts",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "build": "tsc",
+    "dev": "nodemon src/index.ts"
   },
   "author": "Thuta Sann",
   "license": "ISC",

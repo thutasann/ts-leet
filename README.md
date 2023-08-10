@@ -7,9 +7,9 @@ This repo contains Data Structures and Algorithms and Leet Code Solutions.
 ## Table of Content
 
 - Bit O Notation
-  - ConstantTime
-  - LinearTime
-  - QuadraticTime
+  - [ConstantTime](https://github.com/thutasann/ts-leet/tree/main/src/BigO/ConstantTime/)
+  - [LinearTime](https://github.com/thutasann/ts-leet/tree/main/src/BigO/LinearTime/)
+  - [QuadraticTime](https://github.com/thutasann/ts-leet/tree/main/src/BigO/QuadraticTime/)
 
 ## Available scripts
 

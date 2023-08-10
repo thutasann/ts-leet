@@ -5,11 +5,15 @@
   "main": "src/index.ts",
   "scripts": {
     "build": "tsc",
-    "dev": "nodemon src/index.ts"
+    "dev": "concurrently \"nodemon src/index.ts\" \"yarn lite-server\"",
+    "lite-server": "npx lite-server"
   },
   "author": "Thuta Sann",
   "license": "ISC",
   "dependencies": {
     "typescript": "^5.1.6"
+  },
+  "devDependencies": {
+    "concurrently": "^8.2.0"
   }
 }

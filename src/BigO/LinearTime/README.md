@@ -31,7 +31,7 @@ export const logNums = (nums: Array<number>): void => {
 
   - `let i = 0` and then we'are going to loop through that and then we'are going to **reassign** it.
 
-  - then, Javascript in the background in going to take care of **freeing up the memory** and **reallocating that**
+  - then, Javascript in the background is going to take care of **freeing up the memory** and **reallocating that**
 
   - For `const messsage`, we have **O of one**, actually this is a string that is related to **O of one**.
 

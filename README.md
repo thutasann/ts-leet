@@ -2,14 +2,19 @@
 
 This repo contains Data Structures and Algorithms and Leet Code Solutions.
 
-> Each algorithm are presented along with the explanation.
+> Each algorithm is represented along with the explanation.
 
 ## Table of Content
 
 - Bit O Notation
+
   - [ConstantTime](https://github.com/thutasann/ts-leet/tree/main/src/BigO/ConstantTime/)
   - [LinearTime](https://github.com/thutasann/ts-leet/tree/main/src/BigO/LinearTime/)
   - [QuadraticTime](https://github.com/thutasann/ts-leet/tree/main/src/BigO/QuadraticTime/)
+
+- LEETCODES
+
+  - [TwoSum](https://github.com/thutasann/ts-leet/tree/main/src/LeetCodes/TwoSum)
 
 ## Available scripts
 

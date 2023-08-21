@@ -1,3 +1,9 @@
+/**
+ * TwSum
+ * @param { number[] } nums - Numbers of Array 
+ * @param { number } target - Target number
+ * @returns 
+ */
 export function TwoSum(nums: number[], target: number) {
   let storage: Record<string, number> = {};
 

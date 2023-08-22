@@ -1,3 +1,4 @@
+import { ReverseInteger } from './LeetCodes/ReverseInteger';
 import { toFahreneit } from './BigO/ConstantTime/ConstantTime';
 import { logNums } from './BigO/LinearTime/LinearTime';
 import { logPairs } from './BigO/QuadraticTime/QuadraticTime';
@@ -21,6 +22,7 @@ console.log(
     ['0', '0', '0', '1', '1'],
   ]),
 );
+console.log('ReverseInteger', ReverseInteger(123));
 
 // Typescripts
 console.log('Access modifier', EMPLOYEE.getSalary(12));

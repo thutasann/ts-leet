@@ -15,6 +15,9 @@ This repo contains Data Structures and Algorithms and Leet Code Solutions.
 - LEETCODES
 
   - [TwoSum](https://github.com/thutasann/ts-leet/tree/main/src/LeetCodes/TwoSum)
+  - [NumberOfIslands](https://github.com/thutasann/ts-leet/tree/main/src/LeetCodes/NumberOfIslands)
+
+- TYPESCRIPTS
 
 ## Available scripts
 

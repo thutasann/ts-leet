@@ -19,6 +19,10 @@ This repo contains Data Structures and Algorithms and Leet Code Solutions.
 
 - TYPESCRIPTS
 
+  - [Access Modifiers](https://github.com/thutasann/ts-leet/tree/main/src/Typescript/AccessModifiers.ts)
+  - [Ordering Overload](https://github.com/thutasann/ts-leet/tree/main/src/Typescript/OrderingOverload.ts)
+  - [Union Type](https://github.com/thutasann/ts-leet/tree/main/src/Typescript/UnionTypes.ts)
+
 ## Available scripts
 
 ### Install the dependencies

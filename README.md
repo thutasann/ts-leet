@@ -6,22 +6,24 @@ This repo contains Data Structures and Algorithms and Leet Code Solutions.
 
 ## Table of Content
 
-- Bit O Notation
+- 🚀 Bit O Notation
 
   - [ConstantTime](https://github.com/thutasann/ts-leet/tree/main/src/BigO/ConstantTime/)
   - [LinearTime](https://github.com/thutasann/ts-leet/tree/main/src/BigO/LinearTime/)
   - [QuadraticTime](https://github.com/thutasann/ts-leet/tree/main/src/BigO/QuadraticTime/)
 
-- LEETCODES
+- 🚀 LEETCODES
 
   - [TwoSum](https://github.com/thutasann/ts-leet/tree/main/src/LeetCodes/TwoSum)
   - [NumberOfIslands](https://github.com/thutasann/ts-leet/tree/main/src/LeetCodes/NumberOfIslands)
 
-- TYPESCRIPTS
+- 🚀 TYPESCRIPTS
 
+  - [Generics](https://github.com/thutasann/ts-leet/tree/main/src/Typescript/Generics)
   - [Access Modifiers](https://github.com/thutasann/ts-leet/tree/main/src/Typescript/AccessModifiers.ts)
   - [Ordering Overload](https://github.com/thutasann/ts-leet/tree/main/src/Typescript/OrderingOverload.ts)
   - [Union Type](https://github.com/thutasann/ts-leet/tree/main/src/Typescript/UnionTypes.ts)
+  - [Satisfies](https://github.com/thutasann/ts-leet/tree/main/src/Typescript/Satisfies.ts)
 
 ## Available scripts
 

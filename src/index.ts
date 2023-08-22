@@ -12,8 +12,15 @@ logPairs([1, 2, 3]);
 
 // Leet codes
 console.log('Twosum', TwoSum([2, 7, 11, 15], 18));
-console.log('Number of Islands', numsIslands([["1","1","0","0","0"],["1","1","0","0","0"],["0","0","1","0","0"],["0","0","0","1","1"]]));
-
+console.log(
+  'Number of Islands',
+  numsIslands([
+    ['1', '1', '0', '0', '0'],
+    ['1', '1', '0', '0', '0'],
+    ['0', '0', '1', '0', '0'],
+    ['0', '0', '0', '1', '1'],
+  ]),
+);
 
 // Typescripts
-console.log("Access modifier", EMPLOYEE.getSalary(12));
+console.log('Access modifier', EMPLOYEE.getSalary(12));

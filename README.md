@@ -24,6 +24,8 @@ This repo contains Data Structures and Algorithms and Leet Code Solutions.
   - [Ordering Overload](https://github.com/thutasann/ts-leet/tree/main/src/Typescript/OrderingOverload.ts)
   - [Union Type](https://github.com/thutasann/ts-leet/tree/main/src/Typescript/UnionTypes.ts)
   - [Satisfies](https://github.com/thutasann/ts-leet/tree/main/src/Typescript/Satisfies.ts)
+  - [ExtendsImplements](https://github.com/thutasann/ts-leet/tree/main/src/Typescript/ExtendsImplements.ts)
+  - [LiteralTypes](https://github.com/thutasann/ts-leet/tree/main/src/Typescript/LiteralTypes.ts)
 
 ## Available scripts
 

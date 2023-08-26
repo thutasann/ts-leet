@@ -1,4 +1,5 @@
 // Source - https://www.youtube.com/watch?v=dLPgQRbVquo
+import { z } from 'zod';
 
 // ---- Generic in Type level
 type MyGenrics<T extends { name: string }> = {
@@ -95,3 +96,37 @@ const getValue = <TObj, TKey extends keyof TObj>(obj: TObj, key: TKey) => {
   return obj[key];
 };
 export const getValueResult = getValue({ a: 1, b: 'something', c: true }, 'b');
+
+// ---- Default in Type Argument
+
+const createSet = <T = string>() => {
+  return new Set<T>();
+};
+
+const numberSet = createSet<number>();
+const stringSet = createSet<string>();
+const anotherStringSet = createSet();
+
+// ---- Integrating with third-party libs
+
+const makeZodSafeFetch = <TData>(
+  url: string,
+  schema: z.Schema<TData>,
+): Promise<TData> => {
+  return fetch(url).then((res) => {
+    return schema.parse(res);
+  });
+};
+
+const makeZodSafeFetchResult = makeZodSafeFetch<{
+  firstName: string;
+  lastName: string;
+}>(
+  'https://jsonplaceholder.typicode.com/posts',
+  z.object({
+    firstName: z.string(),
+    lastName: z.string(),
+  }),
+).then((res) => {
+  console.log(res);
+});

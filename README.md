@@ -27,6 +27,7 @@ This repo contains Data Structures and Algorithms and Leet Code Solutions.
   - [Satisfies](https://github.com/thutasann/ts-leet/tree/main/src/Typescript/Satisfies.ts)
   - [ExtendsImplements](https://github.com/thutasann/ts-leet/tree/main/src/Typescript/ExtendsImplements.ts)
   - [LiteralTypes](https://github.com/thutasann/ts-leet/tree/main/src/Typescript/LiteralTypes.ts)
+  - [Type Guards](https://github.com/thutasann/ts-leet/tree/main/src/Typescript/TypeGuards.ts)
 
 ## Available scripts
 
@@ -42,7 +43,7 @@ yarn
 yarn dev
 ```
 
-### Compile the Tyepscript
+### Compile the Typescript
 
 ```bash
 yarn build

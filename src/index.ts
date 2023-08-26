@@ -5,6 +5,7 @@ import { logPairs } from './BigO/QuadraticTime/QuadraticTime';
 import { numsIslands } from './LeetCodes/NumberOfIslands';
 import { TwoSum } from './LeetCodes/TwoSum';
 import { EMPLOYEE } from './Typescript/AccessModifiers';
+import { fruitThree } from './Typescript/Enums';
 
 // Big O Notation
 console.log('Constant Time -> ', toFahreneit(12));
@@ -26,3 +27,4 @@ console.log('ReverseInteger', ReverseInteger(123));
 
 // Typescripts
 console.log('Access modifier', EMPLOYEE.getSalary(12));
+console.log('Enum', fruitThree);

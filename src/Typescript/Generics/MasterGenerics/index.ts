@@ -11,12 +11,9 @@ const makeFetch = async <TData>(url: string): Promise<TData> => {
   return await fetch(url).then((res) => res.json());
 };
 
-const response = makeFetch<{ name: string; email: string }>(
-  'https://example.com',
-).then((res) => {
-  return res;
-});
-response.then((res) => res.name);
+makeFetch<{ name: string; email: string }>(
+  'https://jsonplaceholder.typicode.com/posts',
+).then((res) => {});
 
 // ---- Passing Type arguments to Set
 const set = new Set<string>();
@@ -47,4 +44,44 @@ type Result = GetPromiseReturnType<
   }>
 >;
 
-type RrrorLIne = GetPromiseReturnType<() => Promise<{ name: number }>>;
+// ---- Constraints in Functions ⭐️ ⭐️ ⭐️
+
+const getKeyWithHighestValue = <TObj extends Record<string, number>>(
+  obj: TObj,
+): {
+  key: keyof TObj;
+  value: number;
+} => {
+  const keys = Object.keys(obj) as Array<keyof TObj>;
+
+  let highesteKey: keyof TObj = keys[0];
+  let highestValue = obj[highesteKey];
+
+  for (const key of keys) {
+    if (obj[key] > highestValue) {
+      highesteKey = key;
+      highestValue: obj[key];
+    }
+  }
+
+  return {
+    key: highesteKey,
+    value: highestValue,
+  };
+};
+
+export const getKeyWithHighestValueResult = getKeyWithHighestValue({
+  a: 1,
+  b: 2,
+  c: 2,
+});
+
+// ---- Generic Function with Type assertion
+
+const typedObjectKey = <TObj extends {}>(obj: TObj) => {
+  return Object.keys(obj) as Array<keyof TObj>;
+};
+const typedObjectKeyResult = typedObjectKey({
+  name: 'Thuta',
+  age: 21,
+});

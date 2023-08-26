@@ -29,6 +29,7 @@ This repo contains Data Structures and Algorithms and Leet Code Solutions.
   - [LiteralTypes](https://github.com/thutasann/ts-leet/tree/main/src/Typescript/LiteralTypes.ts)
   - [Type Guards](https://github.com/thutasann/ts-leet/tree/main/src/Typescript/TypeGuards.ts)
   - [Enums](https://github.com/thutasann/ts-leet/tree/main/src/Typescript/Enums.ts)
+  - [Keyof & TypeOf](https://github.com/thutasann/ts-leet/tree/main/src/Typescript/KeyOfTypeOf.ts)
 
 - 🚀 INTERVIEWS (coming soon....)
 

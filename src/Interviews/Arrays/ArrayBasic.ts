@@ -49,8 +49,13 @@ const FindArry: number | undefined = NUMSArr.find((val) => {
 });
 console.log('FindArray', FindArry);
 
-// ---- Sprad and Rest opeartors
+// ---- Spread and Rest opeartors
 const nums1 = [1, 2, 3];
 const nums2 = [4, 5, 6, 7];
 const finalNums = [...nums1, ...nums2];
 console.log('finalNums', finalNums);
+
+function sum<T>(...numbers: T[]): T[] {
+  return numbers;
+}
+console.log(sum(...nums1, ...nums2, 5));

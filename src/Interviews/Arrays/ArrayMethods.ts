@@ -29,7 +29,7 @@ const FLATARR: (number | (number | number[])[])[] = [
   [35, 56],
   7,
   3,
-  [[4, 5], 6],
+  [[4, 5], 6]
 ];
 const flatterendArr = FLATARR.flat(2);
 console.log('flatterendArr', flatterendArr);
@@ -40,3 +40,14 @@ console.log('reversedArr', reversedArr);
 const unsortedArr = [5, 2, 30, 45, 61, 34];
 const sortedArr = unsortedArr.sort((a, b) => b - a);
 console.log('sortedArr', sortedArr);
+
+// ---- From
+const str = '1234567';
+const arrayFrom = Array.from(str, function (item) {
+  return Number(item);
+});
+console.log('arrayFrom', arrayFrom);
+
+const numArrsFrom = [1, 2, 3, 4, 5, 6, 7];
+const resFrom = Array.from(new Set(numArrsFrom));
+console.log('resFrom', resFrom);

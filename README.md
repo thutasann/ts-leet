@@ -36,6 +36,7 @@ Another snippets can also be found at [My portfolio](https://thutadev.vercel.app
 - 🚀 INTERVIEWS
 
   - [Array DSA](https://github.com/thutasann/ts-leet/tree/main/src/Interviews/Arrays)
+  - [Recursions DSA](https://github.com/thutasann/ts-leet/tree/main/src/Interviews/Recursions)
 
 ## Available scripts
 

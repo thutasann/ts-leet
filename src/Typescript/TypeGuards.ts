@@ -8,8 +8,6 @@
  * and infer types
  */
 
-import { printIntrospectionSchema } from 'graphql';
-
 //---------- 1. typeof guard
 type alphanumeric = string | number;
 

@@ -22,7 +22,7 @@ console.log('findIndex', findIndex);
 FILLARR.fill(0, 2);
 console.log('FILLARR', FILLARR);
 
-// ---- Flat
+// ---- Flat and Reverse
 const FLATARR: (number | (number | number[])[])[] = [
   1,
   [12, 23, 55],
@@ -33,3 +33,10 @@ const FLATARR: (number | (number | number[])[])[] = [
 ];
 const flatterendArr = FLATARR.flat(2);
 console.log('flatterendArr', flatterendArr);
+const reversedArr = FLATARR.reverse();
+console.log('reversedArr', reversedArr);
+
+// ---- Sort
+const unsortedArr = [5, 2, 30, 45, 61, 34];
+const sortedArr = unsortedArr.sort((a, b) => b - a);
+console.log('sortedArr', sortedArr);

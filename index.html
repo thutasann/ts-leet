@@ -4,15 +4,41 @@
     <title>My TypeScript App</title>
   </head>
   <style>
-    h1 {
-      font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS',
-        sans-serif;
+    h1,
+    a {
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
       font-weight: bold;
       text-align: center;
     }
+    .container {
+      display: flex;
+      align-items: center;
+      flex-direction: column;
+      justify-content: center;
+      column-gap: 12px;
+    }
+    .container > a {
+      text-decoration: none;
+      background-color: #137ecd;
+      color: white;
+      padding: 12px 14px;
+      border-radius: 8px;
+    }
+    .container > a:hover {
+      background-color: #33a1ef;
+    }
   </style>
   <body>
-    <h1>Hello from ts-leet! 👋</h1>
+    <div class="container">
+      <h1>Hello from ts-leet!</h1>
+      <a
+        aria-label="github link"
+        target="_blank"
+        rel="no opener"
+        href="https://github.com/thutasann/ts-leet"
+        >Github</a
+      >
+    </div>
     <script src="dist/index.js"></script>
   </body>
 </html>

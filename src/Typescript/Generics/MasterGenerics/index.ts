@@ -1,5 +1,4 @@
 // Source - https://www.youtube.com/watch?v=dLPgQRbVquo
-import { z } from 'zod';
 
 // ---- Generic in Type level
 type MyGenrics<T extends { name: string }> = {
@@ -109,24 +108,24 @@ const anotherStringSet = createSet();
 
 // ---- Integrating with third-party libs
 
-const makeZodSafeFetch = <TData>(
-  url: string,
-  schema: z.Schema<TData>,
-): Promise<TData> => {
-  return fetch(url).then((res) => {
-    return schema.parse(res);
-  });
-};
+// const makeZodSafeFetch = <TData>(
+//   url: string,
+//   schema: z.Schema<TData>,
+// ): Promise<TData> => {
+//   return fetch(url).then((res) => {
+//     return schema.parse(res);
+//   });
+// };
 
-const makeZodSafeFetchResult = makeZodSafeFetch<{
-  firstName: string;
-  lastName: string;
-}>(
-  'https://jsonplaceholder.typicode.com/posts',
-  z.object({
-    firstName: z.string(),
-    lastName: z.string(),
-  }),
-).then((res) => {
-  console.log(res);
-});
+// const makeZodSafeFetchResult = makeZodSafeFetch<{
+//   firstName: string;
+//   lastName: string;
+// }>(
+//   'https://jsonplaceholder.typicode.com/posts',
+//   z.object({
+//     firstName: z.string(),
+//     lastName: z.string(),
+//   }),
+// ).then((res) => {
+//   console.log(res);
+// });

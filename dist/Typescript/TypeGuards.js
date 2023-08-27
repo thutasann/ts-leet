@@ -8,7 +8,6 @@
  * to narrow down specific blocks of code that you write
  * and infer types
  */
-Object.defineProperty(exports, "__esModule", { value: true });
 function add(a, b) {
     if (typeof a === 'number' && typeof b === 'number') {
         return a + b;

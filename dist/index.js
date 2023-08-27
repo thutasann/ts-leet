@@ -25,4 +25,6 @@ console.log('ReverseInteger', (0, ReverseInteger_1.ReverseInteger)(123));
 // Typescripts
 console.log('Access modifier', AccessModifiers_1.EMPLOYEE.getSalary(12));
 console.log('Enum', Enums_1.fruitThree);
-console.log('AddIDObjResult', MasterGenerics_1.AddIDObjResult);
+console.log('Constraints in Function => ', MasterGenerics_1.getKeyWithHighestValueResult.key);
+console.log('Constraints in Function => ', MasterGenerics_1.getKeyWithHighestValueResult.value);
+console.log('getValueResult', MasterGenerics_1.getValueResult);

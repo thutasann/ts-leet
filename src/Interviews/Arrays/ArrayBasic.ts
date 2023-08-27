@@ -13,7 +13,7 @@ arr.unshift('orange'); // Add to top of the Array
 arr.shift(); // remove the first element of the array
 
 console.log('arr', arr);
-console.log('indedof', arr.indexOf('b', 2));
+console.log('indexof', arr.indexOf('b', 2));
 
 // ---- Looping an Array
 const newArr = ['A', 'B', 'C', 'D', 'E'];

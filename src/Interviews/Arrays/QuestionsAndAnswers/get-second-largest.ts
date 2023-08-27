@@ -15,6 +15,8 @@ function getSecondLargest(arr: number[]): number {
     return b - a;
   });
 
+  console.log('uniqueArr', uniqueArr);
+
   if (uniqueArr.length >= 2) {
     return uniqueArr[1];
   } else {
@@ -22,7 +24,7 @@ function getSecondLargest(arr: number[]): number {
   }
 }
 
-const answer = getSecondLargest([10, 5, 10]);
+const answer = getSecondLargest([12, 35, 1, 10, 34, 1]);
 console.log('answer', answer);
 
 /**

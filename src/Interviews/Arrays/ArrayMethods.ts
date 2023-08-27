@@ -7,8 +7,11 @@ console.log(concatedArr);
 
 // ---- Slice
 const SLICEARR = ['aple', 'banana', 'cheery'];
-const slicedArr = SLICEARR.slice(-1);
+const slicedArr = SLICEARR.slice(0, 1);
 console.log('slicedArr', slicedArr);
+
+const animals = ['ant', 'bison', 'camel', 'duck', 'elephant'];
+console.log('animals', animals.slice(2, 4));
 
 // ---- Splice
 const SPLICEARR = ['aple', 'banana', 'cheery'];

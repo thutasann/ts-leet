@@ -48,3 +48,9 @@ const FindArry: number | undefined = NUMSArr.find((val) => {
   return val > 50;
 });
 console.log('FindArray', FindArry);
+
+// ---- Sprad and Rest opeartors
+const nums1 = [1, 2, 3];
+const nums2 = [4, 5, 6, 7];
+const finalNums = [...nums1, ...nums2];
+console.log('finalNums', finalNums);

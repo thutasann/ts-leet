@@ -31,9 +31,15 @@ This repo contains Data Structures and Algorithms and Leet Code Solutions.
   - [Enums](https://github.com/thutasann/ts-leet/tree/main/src/Typescript/Enums.ts)
   - [Keyof & TypeOf](https://github.com/thutasann/ts-leet/tree/main/src/Typescript/KeyOfTypeOf.ts)
 
-- 🚀 INTERVIEWS (coming soon....)
+- 🚀 INTERVIEWS
+
+  - [Array DSA](https://github.com/thutasann/ts-leet/tree/main/src/Interviews/Arrays)
 
 ## Available scripts
+
+### Install Code Runner VS Code Extension
+
+[Code Runner VS Code Extension](https://marketplace.visualstudio.com/items?itemName=formulahendry.code-runner)
 
 ### Install the dependencies
 

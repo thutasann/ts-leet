@@ -30,7 +30,6 @@ console.log('answer', answer);
  * @description
  * This is the More Optimized solution.
  */
-
 function getSecondLargestTwo(arr: number[]): number {
   let largest: number = Number.NEGATIVE_INFINITY;
   let secondLargeset: number = Number.NEGATIVE_INFINITY;

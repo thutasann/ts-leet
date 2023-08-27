@@ -15,6 +15,11 @@ const SPLICEARR = ['aple', 'banana', 'cheery'];
 SPLICEARR.splice(0, 1, 'orange');
 console.log('splicedArr', SPLICEARR);
 
+const months = ['Jan', 'March', 'April', 'June'];
+months.splice(1, 0, 'Feb');
+months.splice(4, 1, 'May');
+console.log('months', months);
+
 // ---- Fill and FindIndex
 const FILLARR = [1, 2, 3, 4, 5];
 const findIndex = FILLARR.findIndex((item) => item === 2);
@@ -29,7 +34,7 @@ const FLATARR: (number | (number | number[])[])[] = [
   [35, 56],
   7,
   3,
-  [[4, 5], 6]
+  [[4, 5], 6],
 ];
 const flatterendArr = FLATARR.flat(2);
 console.log('flatterendArr', flatterendArr);

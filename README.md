@@ -2,7 +2,9 @@
 
 This repo contains Data Structures and Algorithms and Leet Code Solutions.
 
-> Each algorithm is represented along with the explanation.
+> Each DSA, interviews Q&A and leetcode solutions are represented along with the explanation.
+
+Another snippets can also be found at [My portfolio](https://thutadev.vercel.app/snippets)
 
 ## Table of Content
 

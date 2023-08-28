@@ -11,6 +11,9 @@ import {
   getValueResult,
 } from './Typescript/Generics/MasterGenerics';
 
+const str1 = '5';
+const padded = String(str1).padStart(0, 'ok');
+
 // Big O Notation
 console.log('Constant Time -> ', toFahreneit(12));
 logNums([1, 2, 3, 4, 5, 6, 7]);

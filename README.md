@@ -19,6 +19,7 @@ Other snippets can also be found at [My portfolio](https://thutadev.vercel.app/s
   - [TwoSum](https://github.com/thutasann/ts-leet/tree/main/src/LeetCodes/TwoSum)
   - [NumberOfIslands](https://github.com/thutasann/ts-leet/tree/main/src/LeetCodes/NumberOfIslands)
   - [ReverseInteger](https://github.com/thutasann/ts-leet/tree/main/src/LeetCodes/ReverseInteger)
+  - [ClockSolution](https://github.com/thutasann/ts-leet/tree/main/src/LeetCodes/ClockSolution)
 
 - 🚀 TYPESCRIPTS
 

@@ -1,7 +1,7 @@
 /**
  * Factorial of n
  * @description
- * n = 5 => 5*4*3*2*1
+ * n = 5 => 5 * 4 * 3 * 2 * 1
  */
 function Factorial(n: number): number {
   if (n === 0) {

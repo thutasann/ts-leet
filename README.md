@@ -32,6 +32,7 @@ Other snippets can also be found at [My portfolio](https://thutadev.vercel.app/s
   - [Type Guards](https://github.com/thutasann/ts-leet/tree/main/src/Typescript/TypeGuards.ts)
   - [Enums](https://github.com/thutasann/ts-leet/tree/main/src/Typescript/Enums.ts)
   - [Keyof & TypeOf](https://github.com/thutasann/ts-leet/tree/main/src/Typescript/KeyOfTypeOf.ts)
+  - [Depedency Injection](https://github.com/thutasann/ts-leet/tree/main/src/Typescript/DepedencyInjection.ts)
 
 - 🚀 INTERVIEWS
 

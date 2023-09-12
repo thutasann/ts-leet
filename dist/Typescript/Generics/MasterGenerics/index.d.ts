@@ -1,11 +1,11 @@
 export declare const result: {
-    firstName: string;
-    lastName: string;
+  firstName: string;
+  lastName: string;
 } & {
-    id: string;
+  id: string;
 };
 export declare const getKeyWithHighestValueResult: {
-    key: "a" | "b" | "c";
-    value: number;
+  key: 'a' | 'b' | 'c';
+  value: number;
 };
 export declare const getValueResult: string;

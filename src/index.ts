@@ -10,6 +10,7 @@ import {
   getKeyWithHighestValueResult,
   getValueResult,
 } from './Typescript/Generics/MasterGenerics';
+import { playStationsConsole } from './Typescript/DepedencyInjection';
 
 // Big O Notation
 console.log('Constant Time -> ', toFahreneit(12));
@@ -35,3 +36,4 @@ console.log('Enum', fruitThree);
 console.log('Constraints in Function => ', getKeyWithHighestValueResult.key);
 console.log('Constraints in Function => ', getKeyWithHighestValueResult.value);
 console.log('getValueResult', getValueResult);
+console.log('depedencyInjection', playStationsConsole.play());

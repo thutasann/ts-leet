@@ -9,6 +9,7 @@ const TwoSum_1 = require("./LeetCodes/TwoSum");
 const AccessModifiers_1 = require("./Typescript/AccessModifiers");
 const Enums_1 = require("./Typescript/Enums");
 const MasterGenerics_1 = require("./Typescript/Generics/MasterGenerics");
+const DepedencyInjection_1 = require("./Typescript/DepedencyInjection");
 // Big O Notation
 console.log('Constant Time -> ', (0, ConstantTime_1.toFahreneit)(12));
 (0, LinearTime_1.logNums)([1, 2, 3, 4, 5, 6, 7]);
@@ -28,3 +29,4 @@ console.log('Enum', Enums_1.fruitThree);
 console.log('Constraints in Function => ', MasterGenerics_1.getKeyWithHighestValueResult.key);
 console.log('Constraints in Function => ', MasterGenerics_1.getKeyWithHighestValueResult.value);
 console.log('getValueResult', MasterGenerics_1.getValueResult);
+console.log('depedencyInjection', DepedencyInjection_1.playStationsConsole.play());
